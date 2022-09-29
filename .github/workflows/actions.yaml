@@ -2,12 +2,12 @@ name: Actions Workflow
 
 on: 
   
-  push:
-    branches:
-      - master
-      - 'feature/*' # matches featur
-    tags:
-      - v1.*
+  #push:
+  #  branches:
+  #    - master
+  #    - 'feature/*' # matches featur
+   # tags:
+    #  - v1.*
     
 
   #repository_dispatch:
