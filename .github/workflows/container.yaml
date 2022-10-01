@@ -4,7 +4,8 @@ on: push
 jobs:
   node-docker:
     runs-on: ubuntu-latest
-    container: node:13.5.0-alphine3.10
+    container: 
+      image: node:18.10-alpine3.15
     steps:
       - name: Log node node-version
         run: |
